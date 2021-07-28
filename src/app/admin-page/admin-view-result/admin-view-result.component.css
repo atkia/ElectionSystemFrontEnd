@@ -1,0 +1,14 @@
+form{
+    
+    width: 50%;
+  
+    padding: 10px;
+    margin: auto;
+    height: 100px;
+}
+div {
+    margin: auto;
+    width: 70%;
+    background-color:antiquewhite;
+    padding: 10px;
+  }

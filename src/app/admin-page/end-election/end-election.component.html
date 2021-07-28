@@ -1,0 +1,12 @@
+<form [formGroup] ="endElection" autocomplete="off" (ngSubmit)="onSubmit()">
+
+    <label class="form-label" ><b>Election title</b></label>
+    <select formControlName="ElectionName">
+        <option [ngValue]="null" disabled>Select Election Title</option>
+        <option *ngFor="let title of titles" [ngValue]="title">{{title}}</option>
+      </select>
+     
+    <br>
+    <br>
+    <button type="submit" [disabled]="endElection.invalid" class="btn btn-primary btn-block">End</button>
+  </form>

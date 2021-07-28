@@ -1,0 +1,23 @@
+form{
+    
+    width: 50%;
+  
+    padding: 10px;
+    margin: auto;
+    height: 100px;
+}
+div {
+    margin: auto;
+    width: 70%;
+   
+    padding: 10px;
+  }
+div .a{
+    align-items: center;
+}
+h3{
+    text-align: center;
+}
+div.clr{
+    background-color: cornsilk;
+}

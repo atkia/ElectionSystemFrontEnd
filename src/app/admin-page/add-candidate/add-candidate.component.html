@@ -1,0 +1,26 @@
+<br>
+<br>
+<form [formGroup] ="newCandidate" autocomplete="off" (ngSubmit)="onSubmit()">
+    <h4 >Candidate Name & symbol should be unique</h4>
+    <br>
+  <br>
+    <div class="form-outline sm-4">
+        <label class="form-label" ><b>Candidate Name</b></label>
+        <input type="text" class="form-control" formControlName="Name"  required />
+       
+      </div>
+    
+      <br>  
+      <div class="form-outline sm-4">
+        <label class="form-label" ><b>Candidate's Symbol</b></label>
+        <input type="text"  class="form-control" formControlName="symbol"  required />
+        
+      </div>
+    
+  
+    <div>
+        <br>
+    <button type="submit" [disabled]="newCandidate.invalid" class="btn btn-primary btn-block">Done</button>
+</div>
+</form>
+<router-outlet></router-outlet>

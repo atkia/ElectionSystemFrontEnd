@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+  }
+  
+.topbar{
+    background-image: url("src/assets/images/u9UeFz.webp");
+}
+h1,h2 {
+    text-align: center;
+  }
+nav{
+
+        background-color:darkkhaki;
+
+}
+
+nav a {
+   
+    padding: 14px 26px;
+    text-decoration: none;
+    width: 50%;
+    border: 10px solid darkgoldenrod;
+    display: inline-block;
+    background-color:antiquewhite;
+    border-radius: 8px;
+  }
+  
+  /* visited link */
+  nav a:visited {
+    color: chocolate;
+  }
+  
+  /* mouse over link */
+  nav a:hover {
+    color:darkslategrey;
+  }
+  

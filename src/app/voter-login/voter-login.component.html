@@ -1,0 +1,21 @@
+<br>
+<br>
+<form [formGroup] ="Vform" autocomplete="on"(ngSubmit)="SignIn()">
+   
+    <br>
+    <br>
+    <br>
+    <!-- Password input -->
+    <div class="form-outline sm-4">
+      <input type="number"  class="form-control" formControlName="NID" placeholder="14798xxxxx" />
+      <label class="form-label" >NID</label>
+    </div>
+  
+    <div>
+    
+    <button type="submit" [disabled]="Vform.invalid"class="btn btn-primary btn-block">Sign in</button>
+</div>
+</form>
+<router-outlet></router-outlet>
+{{Vform.status | json}}
+{{Vform.value | json}}

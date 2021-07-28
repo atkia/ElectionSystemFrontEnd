@@ -1,0 +1,19 @@
+
+  div {
+    margin: auto;
+    width: 70%;
+   
+    padding: 10px;
+  }
+  form{
+    
+        width: 50%;
+        border: 25px solid burlywood;
+        padding: 10px;
+        margin: auto;
+        height: 300px;
+  }
+  h4{
+    color: brown;
+    text-align: center;
+  }

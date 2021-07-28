@@ -1,0 +1,30 @@
+nav{
+
+    background-color:darkkhaki;
+
+}
+
+nav a {
+
+padding: 24px 36px;
+text-decoration: none;
+width: 20%;
+display: inline-block;
+background-color:antiquewhite;
+border-radius: 8px;
+}
+
+/* visited link */
+nav a:visited {
+color: green;
+}
+
+/* mouse over link */
+nav a:hover {
+color:darkslategrey;
+}
+
+/* selected link */
+nav a:active {
+color: blue;
+}

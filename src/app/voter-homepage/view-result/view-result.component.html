@@ -1,0 +1,23 @@
+<form [formGroup] ="viewElection" autocomplete="off" (ngSubmit)="onSubmit()">
+
+    <label class="form-label" ><b>Election title</b></label>
+    <select formControlName="ElectionName">
+        <option [ngValue]="null" disabled>Select Election Title</option>
+        <option *ngFor="let title of titles" [ngValue]="title">{{title}}</option>
+      </select>
+     
+    
+    <br>
+    <button type="submit" [disabled]="viewElection.invalid" class="btn btn-primary btn-block">Done</button>
+  </form>
+
+<div id="a">
+    <h3> Elected Candidates Information</h3>
+    <div class="clr">
+
+        <h5>Candidate Name: {{vote.candidateName}}</h5>
+        <h5>Candidate's Symbol: {{vote.symbol}}</h5>
+        <h5>Candidate's Total Vote: {{vote.count}}</h5>
+    </div>
+    <br>
+</div>
